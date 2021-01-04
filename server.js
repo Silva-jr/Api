@@ -1,4 +1,4 @@
-const app = require('./api/config/express')();
+const app = require('./config/express')();
 const port = app.get('port');
 
 
